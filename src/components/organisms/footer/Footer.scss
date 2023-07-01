@@ -1,0 +1,60 @@
+@import '../../../scss/variables';
+
+footer{
+    padding-bottom: $footer-padding-bottom;
+
+& .footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-top: $footer-padding-top;
+    padding-bottom: $footer-padding-bottom;
+    
+    & .support{
+        
+        & .support-link{
+            padding-top: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;    
+        }
+    }
+
+    & .downloads{
+        & .download-buttons{
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    & .links{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    & h5{
+        font-size: $h5;
+    }
+}
+
+& .copyright{
+    padding-left: $footer-padding-left;
+    padding-right: $footer-padding-right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    & p{
+        font-size: $p;
+    }
+
+    & .social-media-links{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+}
+}
+
