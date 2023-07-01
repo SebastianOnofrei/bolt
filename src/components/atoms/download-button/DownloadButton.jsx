@@ -1,4 +1,5 @@
 import React from 'react'
+import './DownloadButton.scss';
 
 const DownloadButton = (props) => {
   return (
