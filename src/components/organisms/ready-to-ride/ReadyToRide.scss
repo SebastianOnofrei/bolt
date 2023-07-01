@@ -1,0 +1,29 @@
+@import '../../../scss/variables';
+
+.ready-to-ride{
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: $ready-to-ride-green;
+    color: white;
+
+    & h2{
+      font-size: $h2;
+    }
+
+    & .download-buttons{
+        display: flex;
+        align-items: center;
+    }
+
+    & p{
+        font-size: $p;
+
+        & a{
+            color: $white;
+        }
+    }
+}

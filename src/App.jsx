@@ -2,6 +2,7 @@ import SecondaryBenefits from "./components/molecules/secondary-benefits/Seconda
 import EarnExtra from "./components/organisms/earn-extra/EarnExtra"
 import GetRide from "./components/organisms/get-a-ride/GetRide"
 import Hero from "./components/organisms/hero/Hero"
+import ReadyToRide from "./components/organisms/ready-to-ride/ReadyToRide"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <EarnExtra/>
       <GetRide/>
       <SecondaryBenefits/>
+      <ReadyToRide/>
     </>
   )
 }
