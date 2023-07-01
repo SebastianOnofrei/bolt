@@ -1,0 +1,24 @@
+@import '../../../scss/variables';
+main{
+    display: flex;
+
+    & .content{
+        width: 50%;
+        background-color: $green;
+        padding-left: $padding-left;
+        padding-top: $hero-padding-top;
+        padding-right: $hero-padding-right;
+
+        & h1{
+            font-size: $h1;
+            color: $white;
+        }
+    }
+    & .photo{
+        width: 50%;
+        height: 78rem;
+        background: url('../../../assets/header-photo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
