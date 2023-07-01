@@ -3,7 +3,7 @@ import './Benefits.scss';
 import car from '../../../assets/benefits-car.svg';
 import wallet from "../../../assets/benefits-wallet.svg";
 import phone from "../../../assets/benefits-phone.svg";
-import Benefit from '../../molecules/benefit/Benefit';
+import Benefit from '../../atoms/benefit/Benefit';
 
 
 const Benefits = () => {

@@ -1,0 +1,34 @@
+@import '../../../scss/variables';
+
+
+
+.wrapper{
+    position: relative;
+
+    & .phone-photo{
+        width: 70rem;
+        height: 70rem;
+        position: absolute;
+        top: 45%;
+        right:-20%;
+        transform: translate(-50%,-20%);
+        
+    }
+}
+
+.get-ride{
+    padding-left: $get-ride-padding-left;
+    padding-top: $get-ride-padding-top;
+    height: 40rem;
+    background-color: $ride-in-minutes-green;
+
+    & h2{
+        font-size: $h2;
+    }
+
+    & p{
+        padding-top: 4rem;
+        font-size: $p;
+        max-width: 600px;
+    }
+}

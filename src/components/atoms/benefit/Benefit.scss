@@ -1,0 +1,42 @@
+@import '../../../scss/variables';
+
+.benefit{
+    
+    & img{
+        max-height: 10rem;
+    }
+
+    & .benefit-text{
+        padding-top: 4rem;
+        
+        & h3{
+            font-size: $h3;
+            color: $black-blue;
+        }
+
+        & p{
+            font-size: $p;
+            color: $gray;
+            padding-top: 2rem;
+            line-height: 2.5rem;
+            max-width: 350px;
+        }
+    }
+
+    & .benefit-text-secondary{
+        padding-top: 2rem;
+         & h3{
+            font-size: $h4;
+        }
+
+        & p{
+            font-size: $p;
+            color: $gray;
+            padding-top: 2rem;
+            line-height: 2.5rem;
+            max-width: 350px;
+        }
+    }
+
+    
+}
