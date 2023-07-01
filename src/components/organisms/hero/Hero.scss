@@ -20,11 +20,18 @@ main{
             color: $white;
         }
 
-
         & .download-buttons{
             padding-top: 2rem;
             display: flex;
             align-items: center;
+            
+                & img{
+                    transition: all .25s ease-in-out;
+
+                    &:hover{
+                        transform: scale(1.05);
+                 }
+            }
         }
     }
 

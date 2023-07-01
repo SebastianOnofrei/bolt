@@ -1,0 +1,40 @@
+@import '../../../scss/variables';
+
+.earn-extra{
+    height: 25rem;
+    background: url('../../../assets/large-circle.png'), url('../../../assets/small-circle.png');
+    background-repeat: no-repeat;
+    background-position: 25% 0, 86% 0;
+    background-color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    color: $white;
+
+    & h3{
+        font-size: $h3;
+    }
+
+    & p{
+        font-size: $p;
+    }
+
+    & button{
+        border: none;
+        border-radius: 6rem;
+        background-color: $white;
+        padding: 2rem;
+        font-family: $montserrat;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        font-weight: $bold;
+
+        &:hover{
+            background-color: $green;
+            color: $white;
+            box-shadow: 0px 0px 20px $green;
+        }
+    }
+
+}
