@@ -5,8 +5,8 @@ const NavigationItem = (props) => {
   return (
 		<li>
 			<a href="#">
-        {props.text}
-      </a>
+        		{props.text}
+      		</a>
 		</li>
 	);
 }

@@ -1,0 +1,16 @@
+@import '../../../scss/variables';
+
+nav{
+    padding-top: $navigation-padding-top;
+    padding-bottom: $navigation-padding-bottom;
+    padding-left: $padding-left;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+}

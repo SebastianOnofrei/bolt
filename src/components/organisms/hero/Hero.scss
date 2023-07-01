@@ -13,7 +13,22 @@ main{
             font-size: $h1;
             color: $white;
         }
+
+        & p{
+            padding-top: 6rem;
+            font-size: $p;
+            color: $white;
+        }
+
+
+        & .download-buttons{
+            padding-top: 2rem;
+            display: flex;
+            align-items: center;
+        }
     }
+
+
     & .photo{
         width: 50%;
         height: 78rem;
