@@ -8,7 +8,7 @@ import appGalleryButton from '../../../assets/app-gallery.svg';
 import DownloadButton from '../../atoms/download-button/DownloadButton';
 import support from '../../../assets/Support.svg';
 import FacebookLogo from '../../../assets/Facebook.svg';
-import LinkedinLogo from '../../../assets/Linkedin.svg';
+import LinkedinLogo from '../../../assets/LinkedIn.svg';
 import TwitterLogo from '../../../assets/Twitter.svg';
 import InstagramLogo from '../../../assets/Instagram.svg';
 
