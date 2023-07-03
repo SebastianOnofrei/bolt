@@ -27,9 +27,9 @@ let othersLinks = ['Airports', 'Cities','Green Plan','Careers','Press','Blog','C
 					<img src={logo} alt="logo" />
 					<div className="downloads">
 						<div className="download-buttons">
-							<DownloadButton url={appleStoreButton} />
-							<DownloadButton url={googlePlayButton} />
-							<DownloadButton url={appGalleryButton} />
+							<DownloadButton url={appleStoreButton} variant='apple'/>
+							<DownloadButton url={googlePlayButton} variant='google'/>
+							<DownloadButton url={appGalleryButton} variant='app-gallery'/>
 						</div>
 					</div>
 					<div className="support-link">
