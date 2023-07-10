@@ -1,6 +1,9 @@
 @import '../../../scss/variables';
 
 nav{
+    @media (max-width:$lg){
+        padding-left: $nav-padding-tablet-left;
+    }
     padding-top: $navigation-padding-top;
     padding-bottom: $navigation-padding-bottom;
     padding-left: $padding-left;

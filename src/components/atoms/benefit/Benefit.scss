@@ -26,6 +26,9 @@
     & .benefit-text-secondary{
         padding-top: 2rem;
          & h3{
+            @media (max-width:$xl){
+                padding-right: 4rem;
+            }
             font-size: $h4;
         }
 

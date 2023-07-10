@@ -6,27 +6,51 @@
     position: relative;
 
     & .phone-photo{
+        @media (max-width:$xl){
+            width: 60rem;height: 80rem;
+            right: -30%;
+       
+        }
+
+        @media (min-width:$xxxl){
+             width: 80rem;
+        }
         width: 70rem;
         height: 70rem;
         position: absolute;
         top: 45%;
-        right:-20%;
+        right:-15%;
         transform: translate(-50%,-20%);
         
+        & img{
+            @media (max-width:$xl) {
+                width: 100%;
+                height: 100%;
+            }
+        }
     }
 }
 
 .get-ride{
+    @media (min-width:$xxxl){
+        padding-left: 30rem;
+    }
     padding-left: $get-ride-padding-left;
     padding-top: $get-ride-padding-top;
     height: 40rem;
     background-color: $ride-in-minutes-green;
 
     & h2{
+        @media (max-width:$xl){
+        max-width: 300px;
+    }
         font-size: $h2;
     }
 
     & p{
+        @media (max-width:$xl){
+            max-width: 300px;
+    }
         padding-top: 4rem;
         font-size: $p;
         max-width: 600px;

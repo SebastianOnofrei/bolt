@@ -1,6 +1,6 @@
 @import 'colors';
 @import './typography';
-
+@import './breakpoints';
 
 
 /*******************
@@ -14,6 +14,7 @@ $padding-left:8rem;
  * NAVIGATION *
  **************/
 
+ $nav-padding-tablet-left:2rem;
  $navigation-padding-top:2rem;
  $navigation-padding-bottom:2rem;
 
@@ -45,7 +46,7 @@ $benefits-padding-bottom:26rem;
 
  $secondary-benefits-padding-top:16rem;
  $secondary-benefits-padding-bottom:15rem;
-
+ $secondary-benefits-padding-left-xl:6rem;
 
 /**********
  * FOOTER *
