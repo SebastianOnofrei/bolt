@@ -1,8 +1,21 @@
 @import '../../../scss/variables';
 
 .benefits{
-    @media(max-width:$lg){
+
+    @media(min-width:$sm){
         gap: 4rem;
+    }
+
+     @media (max-width:$md){
+        padding-right: 4rem;
+        padding-bottom: 6rem;;
+    }
+
+
+    @media (min-width:$md){
+        padding-bottom: 14rem;
+        gap: 4rem;
+        padding-right: 4rem;
     }
     padding-top: $benefits-padding-top;
     padding-bottom: $benefits-padding-bottom;

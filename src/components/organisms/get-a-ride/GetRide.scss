@@ -6,14 +6,31 @@
     position: relative;
 
     & .phone-photo{
-        @media (max-width:$xl){
-            width: 60rem;height: 80rem;
+        @media(max-width:$md){
+            display: none;
+        }
+
+        @media (min-width:$md){
+            width: 40rem;
+            height: 55rem;
+            right: -24%;
+            top: 50%;
+        }
+
+        @media (min-width:$lg){
+            width: 60rem;
+            height: 70rem;
             right: -30%;
        
         }
 
-        @media (min-width:$xxxl){
-             width: 80rem;
+        @media (min-width:$xl){
+             width: 70rem;
+             right: -20%;
+        }
+        @media (min-width:$xxl){
+             width: 70rem;
+             right: -10%;
         }
         width: 70rem;
         height: 70rem;
@@ -32,25 +49,46 @@
 }
 
 .get-ride{
+
+    @media (max-width:$md){
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
     @media (min-width:$xxxl){
         padding-left: 30rem;
+
     }
     padding-left: $get-ride-padding-left;
     padding-top: $get-ride-padding-top;
     height: 40rem;
     background-color: $ride-in-minutes-green;
 
-    & h2{
+    & h2{ 
+        @media (max-width:$lg) {
+        
+        }
         @media (max-width:$xl){
-        max-width: 300px;
-    }
+            max-width: 300px;
+        }
+        @media (min-width:$xl){
+            padding-right: 6rem;
+        }
         font-size: $h2;
     }
 
     & p{
         @media (max-width:$xl){
-            max-width: 300px;
-    }
+            max-width: 30rem;
+        }
+        @media (min-width:$xl){
+            max-width: 35rem;
+        }
         padding-top: 4rem;
         font-size: $p;
         max-width: 600px;

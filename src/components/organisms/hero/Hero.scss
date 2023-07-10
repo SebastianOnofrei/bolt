@@ -1,8 +1,18 @@
 @import '../../../scss/variables';
 main{
     display: flex;
+    @media (max-width:$lg){
+        flex-direction: column;
+    }
 
     & .content{
+
+        @media (max-width:$lg){
+            width: 100%;
+            padding-bottom: $hero-padding-bottom-tablet;
+            padding-right: $padding-right;
+            padding-top: $hero-padding-top-tablet;
+        }
         width: 50%;
         background-color: $green;
         padding-left: $padding-left;
@@ -15,6 +25,10 @@ main{
         }
 
         & p{
+
+            @media (max-width:$lg){
+                font-weight: $bold;
+            }
             padding-top: 6rem;
             font-size: $p;
             color: $white;
@@ -30,6 +44,9 @@ main{
 
 
     & .photo{
+        @media (max-width:$lg){
+            width: 100%;
+        }
         width: 50%;
         height: 78rem;
         background: url('../../../assets/header-photo.png');
