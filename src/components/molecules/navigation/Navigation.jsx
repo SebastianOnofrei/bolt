@@ -15,6 +15,7 @@ const Navigation = () => {
 					return <NavigationItem key={index} text={item} />;
 				})}
 			</ul>
+			<div className="menu-toggle">=</div>
 		</nav>
 	);
 }

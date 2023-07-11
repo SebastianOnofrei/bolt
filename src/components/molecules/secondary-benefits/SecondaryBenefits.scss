@@ -1,7 +1,16 @@
 @import '../../../scss/variables';
 
 .secondary-benefits{
-    @media (max-width:$xl) {
+
+    @media (max-width:$sm){
+        flex-direction: column;
+        padding-left: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        
+    }
+
+    @media (min-width:$sm) {
        gap: 2rem;
        padding-left: $secondary-benefits-padding-left-xl;
     }

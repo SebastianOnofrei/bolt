@@ -4,6 +4,7 @@ nav{
     @media (max-width:$lg){
         padding-left: $nav-padding-tablet-left;
     }
+    position: relative;
     padding-top: $navigation-padding-top;
     padding-bottom: $navigation-padding-bottom;
     padding-left: $padding-left;
@@ -12,8 +13,23 @@ nav{
     gap: 4rem;
 
     ul{
+        @media (max-width:$md){
+            display: none;
+        }
         display: flex;
         align-items: center;
         gap: 4rem;
+    }
+
+    & .menu-toggle{
+        @media (max-width:$md){
+            display: block;
+        }
+        display: none;
+        font-size: xx-large;
+        cursor: pointer;
+        position: absolute;
+        right: 2rem;
+        color: $green;
     }
 }

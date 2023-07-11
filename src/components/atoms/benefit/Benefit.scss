@@ -33,6 +33,10 @@
         }
 
         & p{
+
+            @media (max-width:$sm){
+                padding-right: 4rem;
+            }
             font-size: $p;
             color: $gray;
             padding-top: 2rem;

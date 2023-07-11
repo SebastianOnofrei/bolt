@@ -1,6 +1,9 @@
 @import '../../../scss/variables';
 
 .benefits{
+    @media (max-width:$sm){
+        flex-direction: column;
+    }
 
     @media(min-width:$sm){
         gap: 4rem;

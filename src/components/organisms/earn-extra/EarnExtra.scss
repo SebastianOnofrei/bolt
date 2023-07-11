@@ -1,7 +1,13 @@
 @import '../../../scss/variables';
 
 .earn-extra{
-    height: 24rem;
+    @media (max-width:$sm){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 6rem 2rem;
+    }
+    min-height: 24rem;
     background: url('../../../assets/large-circle.png'), url('../../../assets/small-circle.png');
     background-repeat: no-repeat;
     background-position: 25% 0, 86% 0;

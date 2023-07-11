@@ -50,12 +50,26 @@
 
 .get-ride{
 
-    @media (max-width:$md){
+    @media (max-width:$sm){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+
+    @media (min-width:$sm){
         padding-top: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    @media (min-width:$md){
+        align-items: start;
     }
 
     
